@@ -12,7 +12,7 @@ Add the middleware class to your `MIDDLEWARE_CLASSES` in your Django settings:
         'django.middleware.csrf.CsrfViewMiddleware',
         'django.contrib.auth.middleware.AuthenticationMiddleware',
         'django.contrib.messages.middleware.MessageMiddleware',
-        'path.to.middleware.NewRelicPapertrailMiddleware',
+        'middleware.newrelic_middleware.NewRelicPapertrailMiddleware',
     )
 
 ##Resources
