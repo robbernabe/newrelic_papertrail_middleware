@@ -1,6 +1,6 @@
-#New Relic Papertrail Django Integration
+#New Relic/Papertrail Django Middleware
 
-Add a link to related logs in Papertrail via New Relic custom parameters.
+Add a link in New Relic to related logs in Papertrail via custom parameters.
 
 ##Installation
 
