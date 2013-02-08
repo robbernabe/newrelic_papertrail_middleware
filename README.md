@@ -4,7 +4,7 @@ Add a link in New Relic to related logs in Papertrail via custom parameters.
 
 ##Installation
 
-Add the middleware class to your `MIDDLEWARE_CLASSES` in your Django settings:
+Add the middleware class to the `MIDDLEWARE_CLASSES` section in your Django settings:
 
     MIDDLEWARE_CLASSES = (
         'django.middleware.common.CommonMiddleware',

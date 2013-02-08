@@ -1,6 +1,6 @@
-import newrelic.agent
-import socket
 import time
+import socket
+import newrelic.agent
 
 
 class NewRelicPapertrailMiddleware(object):
@@ -9,11 +9,6 @@ class NewRelicPapertrailMiddleware(object):
 
     This module will need to be added to MIDDLEWARE_CLASSES in Django settings
     in order to work.
-
-    See:
-        http://help.papertrailapp.com/kb/integrations/new-relic
-        https://newrelic.com/docs/python/python-transaction-api#add_custom_parameter
-        https://docs.djangoproject.com/en/dev/topics/http/middleware/
 
     """
 
